@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+	<title>Image manipulation</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<script src="https://code.jquery.com/jquery-1.12.4.js"
+	  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+	  crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</head>
+	<body>
+		<header>
+			<form>
+				<fieldset>
+						<input type="button" id="invert" value="Invert Colors">
+						<input type="button" id="grayscale" value="Grayscale">
+						<fieldset>
+							<label class="block_label"for="transparency">transparency</label>
+							<input type="range" id="transparency" min="0" max="255" >
+							<label id="transparency_level">255</label>
+						</fieldset>
+					<label>
+				</fieldset>
+			</form>
+		</header>
+		<main>
+			<div class="original">
+				<h2>Original</h2>
+				<div class="i1">
+				</div>
+				<div class="i2">
+				</div>
+				<div class="i3">
+				</div>
+			</div><!--
+			--><div class="manipulated">
+				<h2>Manipulated</h2>
+				<div class="i1">
+				</div>
+				<div class="i2">
+				</div>
+				<div class="i3">
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

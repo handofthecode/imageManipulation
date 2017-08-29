@@ -1,0 +1,56 @@
+body {
+	width: 1500px;
+	background: lightpink;
+	font: normal 16px Helvetica, Arial, Sans-serif;
+}
+main {
+	width: 1500px;
+}
+div.original,
+div.manipulated {
+	width: 50%;
+	background-color: white;
+	display: inline-block;
+	min-height: 100px;
+	padding: 10px;
+	border: 10px solid gray;
+	box-sizing: border-box;
+	vertical-align: top;
+	text-align: center;
+}
+/*div.i1,
+div.i2,
+div.i3 {
+	margin: auto;
+}*/
+
+input[type=button] {
+	border: none;
+	background: lightblue;
+	margin: 5px;
+/*	padding: 8px;
+*/	font-size: 16px;
+	vertical-align: top;
+
+}
+input.active {
+	background: grey;
+}
+form {
+	text-align: center;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 500px;
+}
+fieldset > fieldset {
+	display: inline-block;
+	border: none;
+}
+.block_label {
+	display: block;
+	text-align: left;
+	padding: 0;
+}
+
